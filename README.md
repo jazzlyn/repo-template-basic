@@ -39,7 +39,16 @@ Short project description
 
 ## Structure
 
-<!-- TBD -->
+```console
+.
+├── .config
+├── .editorconfig
+├── .gitignore
+├── .pre-commit-config.yaml
+├── README.md                       # this document
+├── .taskfiles
+└── Taskfile.yaml
+```
 
 ## Code-Style
 
@@ -49,9 +58,17 @@ Short project description
 
 <!-- TBD -->
 
-### Prerequisties
+### Prerequisites
 
-<!-- TBD -->
+- [pre-commit][pre-commit]
+
+### Initialize repository
+
+pre-commit framework needs to get initialized.
+
+```console
+pre-commit install
+```
 
 ## Configuration
 
@@ -69,6 +86,8 @@ Short project description
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 <!-- Links -->
+
+[pre-commit]: https://pre-commit.com/
 
 <!-- Badges -->
 
